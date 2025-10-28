@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{% if edit %}Edit{% else %}Add{% endif %} Employee</title>
+    <link rel="stylesheet" href="{% static 'EmployeeApp/style.css' %}">
+</head>
+
+<body>
+    <h2>{% if edit %}Edit{% else %}Add{% endif %} Employee</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn">Save Employee</button>
+    </form>
+
+
+    <a href="{% url 'employee_list' %}" class="back">Back to List</a>
+</body>
+
+</html>
