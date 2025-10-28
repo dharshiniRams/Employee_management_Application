@@ -23,7 +23,6 @@ A simple Django-based web application to efficiently manage employee records wit
 - On creating a new employee:
   - The system fetches the next available ID.
   - The counter increments and stores the latest number permanently.
-- Ensures deleted employee IDs are **never reassigned**.
 
 ---
 
