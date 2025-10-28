@@ -15,7 +15,6 @@ A simple Django-based web application to efficiently manage employee records wit
   - Salary  
   - Skills  
 - Each employee is assigned a **unique Employee ID (empId)** in the format `E001`, `E002`, `E003`, etc.  
-- The Employee ID **auto-increments** and **will never be reused**, even after deletion.
 
 ---
 
