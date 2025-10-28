@@ -50,4 +50,4 @@ A simple Django-based web application to efficiently manage employee records wit
 | **Database** | SQLite (default Django DB) |
 
 ### Author
-<p align="center"> <b>Dharshini R</b> <br> Employee Management Application | Django | Python | 2025 </p> ```
+<p align="center"> <b>Dharshini R</b> <br> Employee Management Application | Django | Python | 2025 </p> 
