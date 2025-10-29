@@ -101,7 +101,7 @@ tr:hover {
     transform: translateY(-2px);
 }
 
-/* === FORM STYLING === */
+
 form {
     background-color: #fff;
     width: 40%;
@@ -129,7 +129,7 @@ form input:focus, form select:focus, form textarea:focus {
     border-color: var(--accent-color);
 }
 
-/* === SUBMIT BUTTON IN FORM === */
+
 form .btn {
     width: 100%;
     text-align: center;
@@ -142,7 +142,6 @@ form .btn:hover {
     background-color: #186346;
 }
 
-/* === EMPTY TABLE MESSAGE === */
 td[colspan="6"] {
     text-align: center;
     color: #777;
@@ -150,7 +149,7 @@ td[colspan="6"] {
     padding: 20px;
 }
 
-/* === RESPONSIVE DESIGN === */
+
 @media (max-width: 768px) {
     table {
         width: 100%;
